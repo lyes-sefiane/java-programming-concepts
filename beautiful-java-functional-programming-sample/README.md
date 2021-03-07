@@ -6,7 +6,7 @@
 - Pure Functions
 - Functions as First-Class
 
-**1. Immutability **
+**1. Immutability**
 
 - Immutability means unable to change. Variable state cannot change once it has been initialized.
 
@@ -14,7 +14,7 @@
 final int x = 5;
 ```
 
-**2. Pure Functions **
+**2. Pure Functions**
 
 A function is a pure function if :
 
@@ -30,7 +30,7 @@ int add(int x, int y){
 ```
 
 
-**3. Functions as First-Class **
+**3. Functions as First-Class**
 
 Functions are treated like any other variable. It can be : 
 
@@ -46,7 +46,7 @@ Calculator<Integer, Integer> add = (a,b) -> a + b;
 
 ## Functions as First-Class : Deep Dive
 
-**1. Function Interface **
+**1. Function Interface**
 
 ```
 interface Function<T, R> {}
@@ -56,25 +56,25 @@ interface Function<T, R> {}
 ```
 Consists on 4 methods :
 
-**1.1 apply() **
+**1.1 apply()**
 
 ```
 R apply(T t);
 ```
 
-**1.2 andThen() **
+**1.2 andThen()**
 
 ```
 default <V> Function<T, V> andThen(Function<? super R, ? extends V> after)
 ```
 
-**1.3 compose() **
+**1.3 compose()**
 
 ```
 default <V> Function<V, R> compose(Function<? super V, ? extends T> before)
 ```
 
-**1.4 identity() **
+**1.4 identity()**
 
 ```
 static <T> Function<T, T> identity()
