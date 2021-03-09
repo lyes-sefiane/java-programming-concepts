@@ -1,6 +1,11 @@
 package com.lsefiane.beautiful.java.functional.programming.demo;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Function;
+import java.util.function.IntBinaryOperator;
+import java.util.function.IntFunction;
+import java.util.function.Supplier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,21 +41,56 @@ public class BeautifulJavaFunctionalProgrammingSampleApplication implements Comm
 		Function<Integer, Integer> myTriple = myMath::triple;
 		Function<Integer, Integer> identity = Function.identity();
 
-		// Function Interface Sample_V1.
+		// Apply().
 		Integer result = myTriple.apply(5);
-		logger.info("Result 1 : {}", result);
+		logger.info("Apply Triple : -> {}", result);
 
-		// Function Interface Sample_V2.
+		// andThen().
 		Integer result2 = myTriple.andThen(myTriple).apply(10);
-		logger.info("Result 2 : {}", result2);
+		logger.info("Apply Triple and Then Triple : -> {}", result2);
 
-		// Function Interface Sample_V3.
-		Integer result3 = myTriple.compose(myMath::devide).apply(20);
-		logger.info("Result 3 : {}", result3);
+		// compose().
+		Integer result3 = myTriple.compose(myMath::divide).apply(20);
+		logger.info("Compose Division and Then Apply Triple : -> {}", result3);
 
-		// Function Interface Sample_V4.
-		logger.info("Result 4 : {}", identity.apply(1));
+		// identity().
+		logger.info("Identity : {}", identity.apply(1));
 
+		///////////////////////////////////////////////////
+
+		// Lambda Expressions
+		// Current Interface : Function<Integer, Integer>
+		// Preferred Interface : IntFunction<Integer>
+		IntFunction<Integer> absoluteValue = x -> x < 0 ? -x : x;
+		logger.info("Absolute value of {} is : {}", 10, absoluteValue.apply(10));
+
+		///////////////////////////////////////////////////
+
+		// BiFunction Interface
+		IntBinaryOperator add = (a, b) -> a + b;
+		logger.info("BiFunction<Integer, Integer, Integer> 10 + 3 = {}", add.applyAsInt(10, 3));
+
+		///////////////////////////////////////////////////
+
+		// Function as Arguments
+		IntFunction<Integer> fn = a -> a + 2;
+		logger.info("Function<Integer, Integer> as Argument,  3 + 2 = {}", myMath.add(3, fn));
+
+		///////////////////////////////////////////////////
+
+		// Closure
+		Function<String, Supplier<String>> createGreeter = hello -> {
+			String name = "Shaun";
+			return () -> hello + name;
+		};
+
+		logger.info("Closure get result = {}", createGreeter.apply("Hello ").get());
+
+		///////////////////////////////////////////////////
+
+		// High-Order Function
+		List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6);
+		logger.info("Higher Order Function Result = {} ", myMath.getList().apply(list, x -> x % 2 == 0));
 	}
 
 }

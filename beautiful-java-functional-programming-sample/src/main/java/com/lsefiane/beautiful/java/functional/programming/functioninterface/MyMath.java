@@ -1,5 +1,11 @@
 package com.lsefiane.beautiful.java.functional.programming.functioninterface;
 
+import java.util.List;
+import java.util.function.BiFunction;
+import java.util.function.IntFunction;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
+
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
@@ -20,7 +26,15 @@ public class MyMath {
 		return x * 3;
 	}
 
-	public Integer devide(Integer x) {
+	public Integer divide(Integer x) {
 		return (int) (x / 2L);
+	}
+
+	public Integer add(Integer integer, IntFunction<Integer> function) {
+		return function.apply(integer);
+	}
+
+	public BiFunction<List<Integer>, Predicate<Integer>, List<Integer>> getList() {
+		return (list, predicate) -> list.stream().filter(predicate).collect(Collectors.toList());
 	}
 }

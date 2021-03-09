@@ -79,3 +79,36 @@ default <V> Function<V, R> compose(Function<? super V, ? extends T> before)
 ```
 static <T> Function<T, T> identity()
 ```
+
+**2. Lambda Expressions**
+
+- Short block of code which takes in parameters and returns a value, usually passed as parameters to a function.
+
+Syntax 
+
+```
+parameter -> expression
+
+(parameter1, parameter2) -> expression
+
+(parameter1, parameter2) -> { code block }
+
+```
+
+**3. Closures**
+
+- Class functions with bounded variables.
+
+Syntax 
+
+```
+(argument_list) -> {func_body}
+```
+
+**4. Higher Order Functions**
+
+- Function that either takes one or more function as an argument or returns the function as a result.
+
+```
+BiFunction<List<Integer>, Predicate<Integer>, List<Integer>> getList() {}
+```
