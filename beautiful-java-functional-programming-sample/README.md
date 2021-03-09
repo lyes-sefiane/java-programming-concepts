@@ -46,6 +46,14 @@ Calculator<Integer, Integer> add = (a,b) -> a + b;
 
 ## Functions as First-Class : Deep Dive
 
+**0. Code Tests**
+
+```
+src/test/java
+
+package com.lsefiane.beautiful.java.functional.programming.function;
+```
+
 **1. Function Interface**
 
 ```
@@ -111,4 +119,33 @@ Syntax
 
 ```
 BiFunction<List<Integer>, Predicate<Integer>, List<Integer>> getList() {}
+```
+
+## Steams
+
+-  A stream is a sequence of elements supporting sequential and parallel aggregate operations.
+ 
+
+**1. Map**
+
+- Returns a stream consisting of the results of applying the given function to the elements of this stream.
+
+Syntax :
+
+```
+<R> Stream<R> map(Function<? super T, ? extends R> mapper);
+
+	<R> The element type of the new stream.
+```
+Example :
+
+```
+
+List<Integer> list = Arrays.asList(1,2,3);
+
+IntFunction<Integer> timesTwo = element -> element * 2;
+
+list.stream()
+	.map(timesTwo)
+	.Collect(Collectors.toList());
 ```

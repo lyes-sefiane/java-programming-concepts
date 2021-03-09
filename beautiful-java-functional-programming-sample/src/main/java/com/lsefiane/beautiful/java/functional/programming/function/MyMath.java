@@ -1,4 +1,4 @@
-package com.lsefiane.beautiful.java.functional.programming.functioninterface;
+package com.lsefiane.beautiful.java.functional.programming.function;
 
 import java.util.List;
 import java.util.function.BiFunction;
