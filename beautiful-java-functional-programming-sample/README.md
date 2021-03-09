@@ -121,7 +121,7 @@ Syntax
 BiFunction<List<Integer>, Predicate<Integer>, List<Integer>> getList() {}
 ```
 
-## Steams
+## Streams
 
 -  A stream is a sequence of elements supporting sequential and parallel aggregate operations.
 
