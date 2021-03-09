@@ -90,5 +90,6 @@ class StreamTest {
 				.concat(", Are Java Champions !");
 
 		assertEquals("Bob, Alice, Jean, Are Java Champions !", javaChampions);
+		
 	}
 }
