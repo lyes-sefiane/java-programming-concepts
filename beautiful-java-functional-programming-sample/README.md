@@ -124,7 +124,14 @@ BiFunction<List<Integer>, Predicate<Integer>, List<Integer>> getList() {}
 ## Steams
 
 -  A stream is a sequence of elements supporting sequential and parallel aggregate operations.
- 
+
+**0. Code Tests**
+
+```
+src/test/java
+
+com.lsefiane.beautiful.java.functional.programming.stream;
+```
 
 **1. Map**
 
@@ -140,12 +147,82 @@ Syntax :
 Example :
 
 ```
-
 List<Integer> list = Arrays.asList(1,2,3);
 
 IntFunction<Integer> timesTwo = element -> element * 2;
 
 list.stream()
 	.map(timesTwo)
-	.Collect(Collectors.toList());
+	.collect(Collectors.toList());
+```
+
+**2. Filter**
+
+- Returns a stream consisting of the elements of this stream that match the given predicate.
+
+
+Syntax :
+
+```
+Stream<T> filter(Predicate<? super T> predicate);
+
+	<T> the type of the stream elements
+```
+
+Example :
+
+```
+List<Integer> list = Arrays.asList(1,2,3);
+
+Predicate<Integer> isEven = element -> element % 2 == 0;
+
+list.stream()
+	.filter(isEven)
+	.collect(Collectors.toList());
+```
+
+**3. Reduce**
+
+- Performs a reduction on the elements of the stream. 
+
+Syntax :
+
+```
+T reduce(T identity, BinaryOperator<T> accumulator);
+
+Optional<T> reduce(BinaryOperator<T> accumulator);
+```
+
+Example :
+
+```
+List<Integer> list = Arrays.asList(1,2,3);
+
+BinaryOperator<Integer> sum = (accumulator, element) -> accumulator + element;
+
+list.stream()
+	.reduce(0, sum)
+
+```
+
+**4. Collect**
+
+- Performs a mutable reduction operation on the elements of the stream.
+
+Syntax :
+
+```
+<R> R collect(Supplier<R> supplier, BiConsumer<R, ? super T> accumulator,BiConsumer<R, R> combiner)
+
+<R, A> R collect(Collector<? super T, A, R> collector)
+```
+
+Example :
+
+```
+List<String> list = Arrays.asList("We", "Are", "Java!");
+
+list.stream()
+	.collect(Collectors.joining(" "));
+
 ```
