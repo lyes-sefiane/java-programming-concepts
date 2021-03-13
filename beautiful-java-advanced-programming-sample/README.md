@@ -2,7 +2,7 @@
 
 ## Case Study / Class Diagram
 
-![Screenshot](.\src\main\resources\image\Design.PNG)
+![alt text](.\src\main\resources\image\Design.PNG)
 
 ## Generics
 
