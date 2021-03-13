@@ -2,7 +2,7 @@
 
 ## Case Study / Class Diagram
 
-![alt text](https://github.com/lsefiane/beautiful-java-programming-sample/blob/master/beautiful-java-advanced-programming sample/src/main/resources/image/Design.PNG)
+![alt text](https://raw.githubusercontent.com/lsefiane/beautiful-java-programming-sample/master/beautiful-java-advanced-programming-sample/src/main/resources/image/Design.PNG)
 
 ## Generics
 
@@ -172,4 +172,4 @@ public class MyClass<T> {
 
 [Image Source](https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/03/collection-framework-hierarchy-in-java.jpg)
 
-![alt text](https://github.com/lsefiane/beautiful-java-programming-sample/blob/master/beautiful-java-advanced-programming sample/src/main/resources/image/collection-framework-hierarchy-in-java.jpg)
+![alt text](https://raw.githubusercontent.com/lsefiane/beautiful-java-programming-sample/master/beautiful-java-advanced-programming-sample/src/main/resources/image/collection-framework-hierarchy-in-java.jpg)
