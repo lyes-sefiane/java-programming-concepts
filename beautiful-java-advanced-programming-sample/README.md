@@ -2,7 +2,7 @@
 
 ## Case Study / Class Diagram
 
-![alt text](.\src\main\resources\image\Design.PNG)
+![alt text](https://github.com/lsefiane/beautiful-java-programming-sample/blob/master/beautiful-java-advanced-programming-sample/src/main/resources/image/Design.PNG)
 
 ## Generics
 
