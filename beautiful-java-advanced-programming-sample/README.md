@@ -233,7 +233,7 @@ reader.lines().collect("Collectors.toList());
 ```
 try(BufferedReader reader =  Files.newBufferedReader(pathToFile);) {
 
-	reader.lines().collect("Collectors.toList());
+	reader.lines().collect(Collectors.toList());
 	
 }
 ```
@@ -246,13 +246,13 @@ try(BufferedReader reader =  Files.newBufferedReader(pathToFile);) {
 - File or Directory Verification
 
 ```
-Files.exists("path_to_file_directory")
+Files.exists(path_to_file_directory)
 ```
 
 - File Creation
 
 ```
-Files.create("path_to_file_name")
+Files.create(path_to_file_name)
 ```
 
 - File Copy
@@ -264,7 +264,7 @@ Files.copy(path_to_file_name_source, path_to_file_name_destination);
 - File Deletion
 
 ```
-Files.deleteIfExists("path_to_file_name")
+Files.deleteIfExists(path_to_file_name)
 ```
 
 
