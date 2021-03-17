@@ -1,8 +1,8 @@
 package com.lsefiane.beautiful.java.advanced.programming.generics;
 
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.Arrays;
 import java.util.List;
@@ -84,7 +84,7 @@ class GenericsTest {
 	void testTelnetSessionUglyNonJavaDeviceWithGenerics() {
 		assertThatThrownBy(() -> sessionService.connect(uglyNonJavaDevice, SessionType.TELNET))//
 				.isInstanceOf(RuntimeException.class)//
-				.hasMessage("Oups ! Exception Occurs While Processing Ugly Device Type ...");
+				.hasMessage("Oops ! Exception Occurs While Processing Ugly Device Type ...");
 	}
 
 	@Test
@@ -92,16 +92,16 @@ class GenericsTest {
 	void testSshSessionUglyNonJavaDeviceWithGenerics() {
 		assertThatThrownBy(() -> sessionService.connect(uglyNonJavaDevice, SessionType.SSH))//
 				.isInstanceOf(RuntimeException.class)//
-				.hasMessage("Oups ! Exception Occurs While Processing Ugly Device Type ...");
+				.hasMessage("Oops ! Exception Occurs While Processing Ugly Device Type ...");
 	}
-	
+
 	@Test
 	@Order(4)
 	void testUpperBoundedWildCardsWithGenerics() {
 		List<? extends Device> devices = Arrays.asList(beautifulJavaDevice, uglyNonJavaDevice);
 		assertEquals(2, devices.size());
 	}
-	
+
 	@Test
 	@Order(5)
 	void testLowerBoundedWildCardsWithGenerics() {

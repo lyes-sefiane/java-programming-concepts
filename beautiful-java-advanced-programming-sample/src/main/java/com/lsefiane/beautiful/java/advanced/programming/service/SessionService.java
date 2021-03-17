@@ -32,7 +32,7 @@ public class SessionService {
 			@NotNull(message = "Session Type Should Not Be Null !") SessionType sessionType) {
 
 		if (device.getDeviceType() == DeviceType.URGLY_NON_JAVA) {
-			throw new IllegalArgumentException("Oups ! Exception Occurs While Processing Ugly Device Type ...");
+			throw new IllegalArgumentException("Oops ! Exception Occurs While Processing Ugly Device Type ...");
 		}
 
 		Session session;

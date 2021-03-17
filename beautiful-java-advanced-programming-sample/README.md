@@ -173,3 +173,136 @@ public class MyClass<T> {
 [Image Source](https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/03/collection-framework-hierarchy-in-java.jpg)
 
 ![alt text](https://raw.githubusercontent.com/lsefiane/beautiful-java-programming-sample/master/beautiful-java-advanced-programming-sample/src/main/resources/image/collection-framework-hierarchy-in-java.jpg)
+
+**2. List** 
+
+- An ordered collection, also known as a sequence.
+
+**2.1 Performance : Linked List vs Array List**
+
+**2.1.1 Search**
+
+- ArrayList search is fast O(1) compared to LinkedList O(n) :  
+  - ArrayList maintains index for its elements as it uses an array to store them. 
+  - LinkedList uses a double Linked List which requires the traversal through all the elements for searching one. 
+
+**2.1.2 Deletion**
+
+- LinkedList remove operation gives O(1) performance while ArrayList gives variable performance: O(n) in worst case (first element) and O(1) in best case (last element).
+  -  ArrayList : If any element is removed from the array, all the bits are shifted in memory.
+  - LinkedList : Uses a doubly linked list, so no bit shifting is required in memory.
+  
+**2.1.3 Insertion**
+
+- LinkedList add method gives O(1) performance while ArrayList gives O(n).
+
+**2.2 ArraList and LinkedList Usage**
+
+- Frequent insertion and deletion operations ->  LinkedList is a best choice.
+- More search operations -> ArrayList  is a best choice.
+
+**2. Queue** 
+
+- Holds elements about to be processed in FIFO(First In First Out) order.
+- The most common classes are the PriorityQueue and LinkedList. 
+
+**3. Map**
+
+- An object that maps keys to values. A map cannot contain duplicate keys; each key can map to at most one value. 
+
+**3.1. HashMap**
+
+- Makes no guarantees as to the order.
+
+**3.2. LinkedHashMap**
+
+- Same as HashMap with the ability of maintaining an order of elements inserted into it.
+
+## Input and Output (I/O)
+
+- Buffered Reader
+
+```
+BufferedReader reader = Files.newBufferedReader(pathToFile);
+
+reader.lines().collect("Collectors.toList());
+```
+
+- Using try-with-resources
+
+```
+try(BufferedReader reader =  Files.newBufferedReader(pathToFile);) {
+
+	reader.lines().collect("Collectors.toList());
+	
+}
+```
+
+
+## Files and Directories
+
+**1. File I/O (Featuring NIO.2)** 
+
+- File or Directory Verification
+
+```
+Files.exists("path_to_file_directory")
+```
+
+- File Creation
+
+```
+Files.create("path_to_file_name")
+```
+
+- File Copy
+
+```
+Files.copy(path_to_file_name_source, path_to_file_name_destination);
+```
+
+- File Deletion
+
+```
+Files.deleteIfExists("path_to_file_name")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
