@@ -196,7 +196,7 @@ public class MyClass<T> {
 
 - LinkedList add method gives O(1) performance while ArrayList gives O(n).
 
-**2.2 ArraList and LinkedList Usage**
+**2.2 ArrayList and LinkedList Usage**
 
 - Frequent insertion and deletion operations ->  LinkedList is a best choice.
 - More search operations -> ArrayList  is a best choice.
