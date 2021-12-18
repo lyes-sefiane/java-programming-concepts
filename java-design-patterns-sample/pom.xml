@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.design.patterns</groupId>
+	<artifactId>java-design-patterns-sample</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>java-design-patterns-sample</name>
+	<description>Java Design Patterns</description>
+	<properties>
+		<java.version>11</java.version>
+		<log4j2.version>2.17.0</log4j2.version>
+	</properties>
+
+	<modules>
+		<module>java-design-patterns-creational-sample</module>
+		<module>java-design-patterns-structural-sample</module>
+		<module>java-design-patterns-behavioral-sample</module>
+  </modules>
+
+</project>
