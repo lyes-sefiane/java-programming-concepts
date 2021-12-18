@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="com.lsefiane.beautiful.java.advanced.programming.generics.device" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/device" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="603" width="1164" x="20" y="13"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <enumeration id="2" language="java" name="com.lsefiane.beautiful.java.advanced.programming.generics.device.DeviceType" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/device/DeviceType.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="957" y="163"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="3" language="java" 
+    name="com.lsefiane.beautiful.java.advanced.programming.generics.device.BeautifulJavaDevice" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/device/BeautifulJavaDevice.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="242" y="488"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" 
+    name="com.lsefiane.beautiful.java.advanced.programming.generics.device.UglyNonJavaDevice" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/device/UglyNonJavaDevice.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="661" y="490"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.lsefiane.beautiful.java.advanced.programming.generics.device.Device" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/device/Device.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="453" y="280"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="6" language="java" name="com.lsefiane.beautiful.java.advanced.programming.generics.device.builder" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/device/builder" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="592" width="929" x="1191" y="24"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="7" language="java" 
+    name="com.lsefiane.beautiful.java.advanced.programming.generics.device.builder.UglyNonJavaDeviceBuilder" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/device/builder/UglyNonJavaDeviceBuilder.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1879" y="539"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" 
+    name="com.lsefiane.beautiful.java.advanced.programming.generics.device.builder.DeviceBuilder" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/device/builder/DeviceBuilder.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1624" y="280"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" 
+    name="com.lsefiane.beautiful.java.advanced.programming.generics.device.builder.BeautifulJavaDeviceBuilder" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/device/builder/BeautifulJavaDeviceBuilder.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1438" y="539"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="10" language="java" name="com.lsefiane.beautiful.java.advanced.programming.generics.session" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/session" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="598" width="1160" x="23" y="628"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <enumeration id="11" language="java" 
+    name="com.lsefiane.beautiful.java.advanced.programming.generics.session.SessionType" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/session/SessionType.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="963" y="909"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="12" language="java" name="com.lsefiane.beautiful.java.advanced.programming.generics.session.TelnetSession" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/session/TelnetSession.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="280" y="1122"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="com.lsefiane.beautiful.java.advanced.programming.generics.session.Session" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/session/Session.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="964" y="773"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="com.lsefiane.beautiful.java.advanced.programming.generics.session.SshSession" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/session/SshSession.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="696" y="1121"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.lsefiane.beautiful.java.advanced.programming.generics.session.BaseSession" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics/session/BaseSession.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="453" y="908"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="16" language="java" name="com.lsefiane.beautiful.java.advanced.programming.service" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/service" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="257" width="929" x="1190" y="626"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="17" language="java" name="com.lsefiane.beautiful.java.advanced.programming.service.SessionService" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/service/SessionService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1873" y="773"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="18" language="java" name="com.lsefiane.beautiful.java.advanced.programming.generics" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/main/java/com/lsefiane/beautiful/java/advanced/programming/generics" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="331" width="933" x="1191" y="893"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="19" language="java" name="com.lsefiane.beautiful.java.advanced.programming.generics.GenericsTest" 
+    project="beautiful-java-advanced-programming-sample" 
+    file="/beautiful-java-advanced-programming-sample/src/test/java/com/lsefiane/beautiful/java/advanced/programming/generics/GenericsTest.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1624" y="1085"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="20">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="21" name="sessionService">        
+        <position height="0" width="0" x="-250" y="-6"/>      
+      </attribute>      
+      <multiplicity id="22" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-250" y="-6"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="23">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="24" name="deviceType">        
+        <position height="0" width="0" x="-1" y="-117"/>      
+      </attribute>      
+      <multiplicity id="25" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1" y="-117"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="28">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="29" name="sessionType">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="30" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <realization id="34">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="35">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="36" name="device">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="37" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="38">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="40">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="41" name="deviceType">        
+        <position height="0" width="0" x="-1" y="-117"/>      
+      </attribute>      
+      <multiplicity id="42" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1" y="-117"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

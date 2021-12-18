@@ -29,3 +29,5 @@ mvn clean install
 **1.** [Beautiful Java Functional Programming](https://github.com/lsefiane/beautiful-java-programming-sample/tree/master/beautiful-java-functional-programming-sample)
 
 **2.** [Beautiful Java Advanced Programming](https://github.com/lsefiane/beautiful-java-programming-sample/tree/master/beautiful-java-advanced-programming-sample)
+
+**3.** [Beautiful Java Design Patterns](https://github.com/lsefiane/beautiful-java-programming-sample/tree/master/java-design-patterns-sample)
