@@ -2,7 +2,7 @@
 
 ## Wiki
 
-* [lyes-s/beautiful-java-programming-sample/wiki](https://github.com/lyes-s/beautiful-java-programming-sample/wiki)
+[lyes-s/beautiful-java-programming-sample/wiki](https://github.com/lyes-s/beautiful-java-programming-sample/wiki)
 
 ## Modules
 
