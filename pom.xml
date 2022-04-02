@@ -15,7 +15,6 @@
 	<modules>
 		<module>beautiful-java-functional-programming-sample</module>
 		<module>beautiful-java-advanced-programming-sample</module>
-		<module>java-design-patterns-sample</module>
 	</modules>	
 
 </project>
