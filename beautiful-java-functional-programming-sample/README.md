@@ -2,7 +2,7 @@
 
 ## Wiki
 
-* [lyes-s/beautiful-java-programming-sample/wiki/Beautiful-Java-Functional-Programming](https://github.com/lyes-s/beautiful-java-programming-sample/wiki/Beautiful-Java-Functional-Programming)
+* [lyes-sefiane/beautiful-java-programming-sample/wiki/Beautiful-Java-Functional-Programming](https://github.com/lyes-sefiane/beautiful-java-programming-sample/wiki/Beautiful-Java-Functional-Programming)
 
 ## Contributing
 
