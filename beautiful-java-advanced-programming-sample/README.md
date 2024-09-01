@@ -2,7 +2,7 @@
 
 ## Wiki
 
-* [lyes-s/beautiful-java-programming-sample/wiki/Beautiful-Java-Advanced-Programming](https://github.com/lyes-s/beautiful-java-programming-sample/wiki/Beautiful-Java-Advanced-Programming)
+* [lyes-sefiane/beautiful-java-programming-sample/wiki/Beautiful-Java-Advanced-Programming](https://github.com/lyes-sefiane/beautiful-java-programming-sample/wiki/Beautiful-Java-Advanced-Programming)
 
 ## Contributing
 
